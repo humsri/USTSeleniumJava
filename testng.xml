@@ -4,7 +4,8 @@
 
   <test name="TestngTesting">
     <classes>
-       <class name="UST.SeleniumJava.xmldemo"/>
+       <class name="UST.SeleniumJava.xmldemo"/> 
+       <class name="dailyAssignment_2June.FrameTest"/>
     </classes>
   </test>
 
