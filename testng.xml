@@ -3,9 +3,19 @@
 <suite name="Demo" verbose="1">
 
   <test name="TestngTesting">
+  
+  <!-- To Run Regression or Smoke test cases -->
+    <groups>
+      <run>
+      <!-- <include name= "regression" /> -->
+      <include name= "smoke" />
+      </run>   
+    </groups>
+  
     <classes>
        <class name="UST.SeleniumJava.xmldemo"/> 
        <class name="dailyAssignment_2June.FrameTest"/>
+       <class name="dailyAssignment_2June.Dropdown"/>
     </classes>
   </test>
 
