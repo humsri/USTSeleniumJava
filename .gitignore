@@ -1,0 +1,16 @@
+# Maven
+target/
+
+# TestNG
+test-output/
+
+# Logs
+logs/
+*.log
+
+# Screenshots
+screenshots/
+
+# Allure
+allure-results/
+allure-report/
